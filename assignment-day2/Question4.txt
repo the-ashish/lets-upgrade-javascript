@@ -1,0 +1,22 @@
+//Program to display only elements containing 'a' in them from an array
+
+
+let arr = ["abc", "xyz", "lmn", "ashish"];
+
+console.log("String contain a in them from array --");
+for(let i=0; i<arr.length; i++){
+  let str = arr[i];
+  if(str.match("a")){
+    console.log(arr[i]);
+  }
+}
+
+
+
+
+output---->
+
+String contain a in them from array --
+abc
+ashish
+

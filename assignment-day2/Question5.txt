@@ -1,0 +1,14 @@
+// Print an array in reverse order
+
+let arr = ["ashish1", "ashish2", "ashish3", "ashish4"];
+
+console.log("Normal array -- "+arr);
+console.log("array in reverse order--"+arr.reverse());
+
+
+
+
+output --->
+
+Normal array -- ashish1,ashish2,ashish3,ashish4
+array in reverse order--ashish4,ashish3,ashish2,ashish1

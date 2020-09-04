@@ -1,0 +1,13 @@
+//Program to convert minutes to second
+
+function convert(min){
+  return min*60;
+}
+
+console.log("2 minutes is equals to "+ convert(2)+" seconds.");
+
+
+
+output --->
+
+2 minutes is equals to 120 seconds.

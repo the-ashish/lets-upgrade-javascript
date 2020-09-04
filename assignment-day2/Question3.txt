@@ -1,0 +1,14 @@
+//Program to search for an element in a array of Strings
+
+let arr = ["ashish1", "ashish2", "ashish3"];
+let elem = "ashish3";
+let index = arr.indexOf(elem);
+
+console.log("An element "+elem+" in a array of Strings is at "+index+" index");
+
+
+
+
+output -->
+
+An element ashish3 in a array of Strings is at 2 index

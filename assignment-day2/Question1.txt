@@ -1,0 +1,14 @@
+//Program to search for a particular character in a string
+
+let data = "shukla";
+let searchChar = "k";
+
+
+let index = data.indexOf("k");
+console.log("k is present at "+index+" index in String -- "+data);
+
+
+
+output---->
+
+k is present at 3 index in String -- shukla
