@@ -1,0 +1,68 @@
+// A --> Write a function to display all the objects having age less than 30
+
+Answer --->
+
+let arr = [
+  {
+    name : "Ashish1",
+    age : 25,
+    country : "India",
+    hobbies : ["singing", "dancing", "gaming"]
+  },
+  {
+    name : "Ashish2",
+    age : 30,
+    country : "Italy",
+    hobbies : ["singing", "writing"]
+  },
+  {
+    name : "Ashish3",
+    age : 20,
+    country : "Germany",
+    hobbies : ["singing", "writing"]
+  }
+];
+
+function diplayObjAgeLessThan30(){
+  console.log('Displaying array of objects in which age is less than 30 -- ');
+  let count = 1;
+  arr.forEach(function (ele) {
+    if(ele.age<30){
+      console.log('Object ---------- '+count);
+      console.log('Name -- '+ele.name);
+      console.log('Age -- '+ele.age);
+      console.log('Country -- '+ele.country);
+      console.log('Hobbies -- '+ele.hobbies);
+      count++;
+    }
+  });
+}
+
+diplayObjAgeLessThan30();
+
+
+
+
+
+
+// B --> Write a function to display all the objects having country India
+
+Answer --->
+
+function diplayObjWherecountryIsIndia(){
+  console.log('Displaying array of objects where country is India -- ');
+  let count = 1;
+  arr.forEach(function (ele) {
+    if(ele.country == "India"){
+      console.log('Object ---------- '+count);
+      console.log('Name -- '+ele.name);
+      console.log('Age -- '+ele.age);
+      console.log('Country -- '+ele.country);
+      console.log('Hobbies -- '+ele.hobbies);
+      count++;
+    }
+    
+  });
+}
+
+diplayObjWherecountryIsIndia();

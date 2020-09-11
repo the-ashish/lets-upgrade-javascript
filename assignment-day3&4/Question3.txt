@@ -1,0 +1,47 @@
+//Create an array of objects with objects having the following properties
+
+//A---> {name(String), age(number), country(String), hobbies array(Strings[])}
+
+Answer --->
+
+let arr = [
+  {
+    name : "Ashish1",
+    age : 25,
+    country : "India",
+    hobbies : ["singing", "dancing", "gaming"]
+  },
+  {
+    name : "Ashish2",
+    age : 30,
+    country : "Italy",
+    hobbies : ["singing", "writing"]
+  },
+  {
+    name : "Ashish3",
+    age : 20,
+    country : "Germany",
+    hobbies : ["singing", "writing"]
+  }
+];
+
+
+
+//B---> Write a function to display all the objects on the console
+
+Answer---->
+
+function display(){
+  console.log('Displaying array of objects -- ');
+  let count = 1;
+  arr.forEach(function (ele) {
+    console.log('Object ---------- '+count);
+    console.log('Name -- '+ele.name);
+    console.log('Age -- '+ele.age);
+    console.log('Country -- '+ele.country);
+    console.log('Hobbies -- '+ele.hobbies);
+    count++;
+  });
+}
+
+display();
