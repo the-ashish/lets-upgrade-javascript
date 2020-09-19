@@ -1,0 +1,61 @@
+<!-- Create an array containing five objects with properties {name, age, city, salary}
+
+A- Display all the objects in the table
+B- Create a search funtionality for name and city
+C- Delete button to delete records
+D- Data is not permanent
+
+comment section -->
+
+
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="">
+  <meta name="viewport" content="width=, initial-scale=">
+  <title>Employee</title>
+
+  <!-- <style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    .table {
+        width: 100%;
+        margin-top: 20px;
+    }
+    th, td {
+      height: 20px;
+      text-align: center;
+      padding: 10px;
+    }
+  </style> -->
+
+</head>
+<body>
+  <br>
+  <h3>Search By Name and City</h3>
+  Name <input id="name" type="text">
+  <button onclick="searchByName()">Search</button><br>
+  City <input id="city" type="text">
+  <button onclick="searchByCity()">Search</button>
+  <br><br><br>
+  <table border="4" cellspacing="0" id="table">
+    <thead>
+      <tr>
+        <th>Serial No</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>City</th>
+        <th>Salary</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+    </tbody>
+  </table>
+
+  <script src="Question1Script.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="">
+  <meta name="viewport" content="width=, initial-scale=">
+  <title>Employee</title>
+</head>
+<body onload="load()">
+  <br>
+  <h3>Add Bus</h3>
+  Name <input id="name" type="text"><br>
+  Source <input id="source" type="text"><br>
+  Destination <input id="destination" type="text"><br>
+  Plate No <input id="plateNo" type="text"><br>
+  Capacity <input id="capacity" type="text"><br><br>
+  <button onclick="addBus()">Add Bus</button><br>
+  <br><br><br>
+  <h3>Search by Source & Destination</h3>
+  Source <input id="sourceSearch" type="text">
+  Destination <input id="destSearch" type="text">
+  <button onclick="searchBySourceDest()">Search</button><br>
+  <br><br><br>
+  <table border="4" cellspacing="0" id="table">
+    <thead>
+      <tr>
+        <th>Serial No</th>
+        <th>Name</th>
+        <th>Source</th>
+        <th>Destination</th>
+        <th>Plate No</th>
+        <th>Capacity</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+    </tbody>
+  </table>
+
+  <script src="Question2Script.js"></script>
+</body>
+</html>
